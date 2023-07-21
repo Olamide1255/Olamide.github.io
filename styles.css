@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(4K\ Wallpaper\ For\ Pc\ 1920X1080\ Download\ Gallery.jpg);
+    background-repeat: no-repeat;
+    background-position:100%;
+    background-size: cover;
+
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+    font-family: Brush Script MT;
+    font-size: 40px;
+  }
+
+  header:hover{
+    transform: scale(1.2);
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 80px;
+    margin: 20px auto;
+    max-width: 700px;
+    padding: 20px;
+    font-family: Luminari;
+  }
+  
+  .box {
+    background-color: #bdc5cc;
+    opacity: 0.7;
+    padding: 20px;
+    text-align: center;
+    border: solid black;
+    border-width: 1px;
+    border-radius: 35px;
+  }
+
+  .box:hover{
+    transform: scale(1.09);
+  }
+  
+  a {
+    color:#0e191b;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #2e454a; /* Background color to blend with #2e454a */
+    color: #e8ebef; /* Text color to blend with #e8ebef */
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+  }
+
+  
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .legal-links {
+    margin-bottom: 10px;
+  }
+  
+  .legal-links a {
+    color: #e8ebef;
+    text-decoration: none;
+  }
+  
+  .social-icons {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons .icon {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
